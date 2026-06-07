@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chitral Tours — Premium Travel & Tour Operator</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    
+    <!-- Base Structured Data for Geo / Organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "name": "Chitral Tours",
+        "description": "Local tour operator specializing in Chitral, Kalash Valley, Shandur Pass and Tirich Mir expeditions.",
+        "areaServed": {
+          "@type": "GeoCircle",
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": "35.8510",
+            "longitude": "71.7864"
+          },
+          "geoRadius": "200000"
+        },
+        "telephone": "+923474054450",
+        "email": "hello@chitraltours.pk",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Shahi Bazaar",
+          "addressLocality": "Chitral",
+          "addressRegion": "Khyber Pakhtunkhwa",
+          "addressCountry": "PK"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
